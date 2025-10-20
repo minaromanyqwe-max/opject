@@ -3,245 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mealify - Delicious Food</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
-    <link rel="stylesheet" href="media,screen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="chef dafoult-100 sm-50 md-33 lg-25 ">
-        <div class="about">
+
+    <header class="header">
+        <div class="logo">
             <h1>Mealify <span>.</span></h1>
         </div>
-        <div class="contant">
-            <ul>
-                <li class="galler"><a href="#">Home</a></li>
-                <li class="gallery"><a href="#">Chefs</a></li>
-                <li class="gallery"><a href="#">Gallery</a></li>
-                <li class="gallery"><a href="#">Contact</a></li>
-
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#chefs" class="nav-link">Chefs</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+        </nav>
+        <div class="nav-actions">
+            <a href="#"><i class="fas fa-sun toggle-theme-icon"></i></a>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
-        <div class="hover ">
-<a href="#"<i class="fa-duotone fa-solid fa-star-and-crescent"></i></a>
-        </div>
-        
-    </div>
-    <div class="HOME dafoult-100 sm-50 md-33 lg-25">
-        <div class="img ">
-<img src="index/hero-img.png" alt="hero-img" width="430px">
-        </div>
+    </header>
+
+    <section id="home" class="hero-section">
         <div class="enjoy">
-            <h1>Enjoy Your Healthy <br>
-Delicious Food</h1>
-<br>
-<p>Sed autem laudantium dolores. Voluptatem itaque ea <br> consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
-    <br>
-<button>book a table</button>
-<i class="fa-solid fa-play"></i>
-<a class="aa" href="#">watch a video</a>
-    </div>
-    </div>
+            <h1>Enjoy Your Healthy <br> Delicious Food</h1>
+            <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+            <div class="hero-buttons">
+                <button class="book-table-btn">Book a Table</button>
+                <a class="watch-video-link" href="#">
+                    <i class="fa-solid fa-play"></i> Watch a Video
+                </a>
+            </div>
+        </div>
+        <div class="img-container">
+            <img src="index/hero-img.png" alt="Hero Image: Plate of food" width="300px">
+        </div>
+    </section>
+
+    <section id="chefs" class="chefs-section">
+        <div class="section-header">
+            <p>CHEFS</p>
+            <h2>Our <span>Proffesional</span> Chefs</h2>
+        </div>
+
+        <div class="chefs-container">
+            <div class="chef-card">
+                <div class="chef-img-wrapper">
+                    <img src="index/chefs-1.jpg" alt="Chef Walter White" width="350px">
+                    <div class="chef-social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <h3>Walter White</h3>
+                <p class="role">Master Chef</p>
+                <p class="description">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et</p>
+            </div>
+
+            <div class="chef-card">
+                <div class="chef-img-wrapper">
+                    <img src="index/chefs-2.jpg" alt="Chef Sarah Jhonson" width="350px">
+                    <div class="chef-social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <h3>Sarah Jhonson</h3>
+                <p class="role">Patissier</p>
+                <p class="description">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+            </div>
+
+            <div class="chef-card">
+                <div class="chef-img-wrapper">
+                    <img src="index/chefs-3.jpg" alt="Chef William Anderson" width="350px">
+                    <div class="chef-social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <h3>William Anderson</h3>
+                <p class="role">Cook</p>
+                <p class="description">Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <div class="section-header">
+            <p>GALLERY</p>
+            <h2>Check <span>Our Gallery</span> </h2>
+        </div>
+        <div class="masonry-gallery">
+            <img class="meal-item" src="index/meal-1.jpg" alt="meal-1">
+            <img class="meal-item" src="index/meal-4.jpg" alt="meal-7">
+            <img class="meal-item" src="index/chefs-2.jpg" alt="meal-4">
+            <img class="meal-item" src="index/meal-6.jpg" alt="meal-5">
+            <img class="meal-item" src="index/meal-3.jpg" alt="meal-2">
+            <img class="meal-item" src="index/meal-5.jpg" alt="meal-3">
+            <img class="meal-item" src="index/meal-7.jpg" alt="meal-6">
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <p>CONTACT</p>
+            <h2>Need Help ? Contact Us</h2>
+        </div>
+
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2519184517334!2d-73.98782018459453!3d40.74844057932649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259648943147f%3A0x633d4e0e56f4d8e5!2sEmpire%20State%20Building!5e0!3m2!1sen!2seg!4v1634700000000!5m2!1sen!2seg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contact-info-form-container">
+            <div class="contact-info-cards-grid">
+                <div class="contact-card">
+                    <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="content">
+                        <h3>Our Address</h3>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                    <div class="content">
+                        <h3>Email Us</h3>
+                        <p>contact@example.com</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                    <div class="content">
+                        <h3>Call Us</h3>
+                        <p>+1 5589 55488 55</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="icon-box"><i class="fas fa-clock"></i></div>
+                    <div class="content">
+                        <h3>Opening Hours</h3>
+                        <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form class="contact-form">
+                    <fieldset>
+                        <div class="form-row">
+                            <input id="name-input" type="text" placeholder="Your Name" name="name" required>
+                            <input id="email-input" type="email" placeholder="Your Email" name="email" required>
+                        </div>
+                        <input class="full-width-input" id="subject-input" type="text" placeholder="Subject" name="subject" required>
+                        <textarea class="full-width-input" id="message-input" placeholder="Message for you" name="message" rows="5" required></textarea>
+                        <button class="submit-btn" type="submit">SEND MESSAGE</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col about-col">
+                <div class="logo-footer">
+                    <img src="index/favicon.png" alt="favicon" width="50px">
+                    <h2>Mealify</h2>
+                </div>
+                <p>Mealify is a restaurant landing page that offers a delicious dining experience to its customers.</p>
+                <h4>Social Media</h4>
+                <div class="social-links-footer">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col newsletter-col">
+                <h4>Subscribe our Newsletter</h4>
+                <p>Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and stay up-to-date with all things Mealify!</p>
+                <form class="subscribe-form">
+                    <input id="Address" type="email" placeholder="ENTER YOUR Email Address">
+                    <button class="subscribe-btn" type="submit">SUBSCRIBE</button>
+                </form>
+                <h4>Quick Links</h4>
+                <ul class="quick-links-list">
+                    <li><i class="fas fa-angle-right"></i> Menu</li>
+                    <li><i class="fas fa-angle-right"></i> Promo</li>
+                    <li><i class="fas fa-angle-right"></i> About Us</li>
+                    <li><i class="fas fa-angle-right"></i> Contact</li>
+                    <li><i class="fas fa-angle-right"></i> Testimonial</li>
+                    <li><i class="fas fa-angle-right"></i> Our Partners</li>
+                </ul>
+            </div>
+
+            <div class="footer-col touch-col">
+                <h3>Get in Touch</h3>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>contact@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+1 5589 55488 55</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     
-<div class="cheffs dafoult-100 sm-50 md-33 lg-25">
-
-        <p>CHEFS</p>
-        <h1>Our <span>Proffesional </span>Chefs</h1>
-     </div>
-
-        <div class="Our dafoult-100 sm-50 md-50 lg-25">
-        <div class="photo ">
-          <div>
-            <div class="mmmm">
-          <img src="index/chefs-1.jpg" alt="chefs-1" width="350px">
-
-            </div>
-            <div class="solid">
-              <i class="fa-solid fa-play"></i>
-<i class="fa-solid fa-circle-user"></i>
-<i class="fa-solid fa-image"></i>
-<i class="fa-solid fa-face-smile"></i>
-            </div>
-          </div>
-
-<h2>  Walter White</h2>
-            <p>Master Chef</p>
-        <p>Velit aut quia fugit et et. Dolorum ea voluptate <br> vel tempore tenetur ipsa quae aut. Ipsum <br> exercitationem iure minima enim corporis et </p>
-      </div>
-      <br>
-        <div class="chef5">
-          <div class="bbb">
-            <img src="index/chefs-2.jpg" alt="chefs-2" width="350px">
-<div class="jjj">
-                <i class="fa-solid fa-play"></i>
-  <i class="fa-solid fa-circle-user"></i>
-<i class="fa-solid fa-image"></i>
-<i class="fa-solid fa-face-smile"></i>
-
-</div>
-          </div>
-<h2>        Sarah Jhonson</h2>
-            <p>Patissier</p>
-        <p>Quo esse repellendus quia id. Est eum et <br> accusantium pariatur fugit nihil minima <br> suscipit corporis. Voluptate sed quas reiciendis <br> animi neque sapiente.</p>
-
-        </div>
-<br>
-        <div class="chef3">
-          <div class="fff">
-          <img src="index/chefs-3.jpg" alt="chefs-3" width="350px">
-<dir class="vvv">
-                  <i class="fa-solid fa-play"></i>
-  <i class="fa-solid fa-circle-user"></i>
-<i class="fa-solid fa-image"></i>
-<i class="fa-solid fa-face-smile"></i>
-
-</dir>
-          </div>
-        <h2>        William Anderson</h2>
-            <p>Cook</p>
-        <p>Vero omnis enim consequatur. Voluptas <br>consectetur unde qui molestiae deserunt. <br> Voluptates enim aut architecto porro <br> aspernatur molestiae modi.</p>        </div>
-    </div>
-
-    <div class="mina dafoult-100 sm-50 md-33 lg-25">
-        <div class="check dafoult-100 sm-50 md-33 lg-25">
-            <p>gallery</p>
-<h1>Check <span>Our Gallery</span> </h1>
-        </div>
-        <div class="mansory dafoult-100 sm-50 md-33 lg-25">
-            <img class="meal1 dafoult-100 sm-50 md-33 lg-25" src="index/meal-1.jpg" alt="meal-1">
-              <img class="meal2 dafoult-100 sm-50 md-33 lg-25" src="index/meal-4.jpg" alt="meal-7">
-            <img class="meal3 dafoult-100 sm-50 md-33 lg-25" src="index/chefs-2.jpg" alt="meal-4">
-            <img class="meal4 dafoult-100 sm-50 md-33 lg-25" src="index/meal-6.jpg" alt="meal-5">
-             <img class="meal5 dafoult-100 sm-50 md-33 lg-25" src="index/meal-3.jpg" alt="meal-2">
-            <img class="meal6 dafoult-100 sm-50 md-33 lg-25" src="index/meal-5.jpg" alt="meal-3">
-            <img class="meal7 dafoult-100 sm-50 md-33 lg-25" src="index/meal-7.jpg" alt="meal-6">
-          </div>
-        </div>
-    <div class="face2 dafoult-100 sm-50 md-33 lg-25 h-">
-
-<div class="face">
-<p>    CONTACT</p>
-<h2>    Need Help ? Contact Us</h2>
-    </div>
-<div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13803.547644841543!2d31.3163776!3d30.126049350000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1756558517426!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
-</div>
-<div class="contact-container dafoult-100 sm-50 md-33 lg-25 ">
-  <div class="contact-card">
-    <div class="icon-box">
-      <i class="fas fa-map-marker-alt"></i>
-    </div>
-    <div class="content">
-      <h3>Our Address</h3>
-      <p>A108 Adam Street, New York, NY 535022</p>
-    </div>
-  </div>
-  <div class="contact-card">
-    <div class="icon-box">
-      <i class="fas fa-envelope"></i>
-    </div>
-    <div class="content">
-      <h3>Email Us</h3>
-      <p>contact@example.com</p>
-    </div>
-  </div>
-  <div class="contact-card">
-    <div class="icon-box">
-      <i class="fas fa-phone-alt"></i>
-    </div>
-    <div class="content">
-      <h3>Call Us</h3>
-      <p>+1 5589 55488 55</p>
-    </div>
-  </div>
-  <div class="contact-card">
-    <div class="icon-box">
-      <i class="fas fa-clock"></i>
-    </div>
-    <div class="content">
-      <h3>Opening Hours</h3>
-      <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
-    </div>
-  </div>
-</div>
-</div>
-<div>
-        <div class="text dafoult-100 sm-50 md-33 lg-25">
-        <form>
-            <fieldset >
-          <input id="place" type="text" placeholder="name" value=" name"> 
-        
-                    <input id="email" type="email" placeholder="email" value="email">
-          <br>
-          <input class="dafoult-100 sm-50 md-33 lg-25" id="text" type="text"  placeholder="subject" value="subject">
-        <br>
-          <input class="dafoult-100 sm-50 md-33 lg-25" id="word" type="text" placeholder="message for you" value="message">
-          <br>
-          <br>
-          <button class="submit dafoult-100 sm-50 md-33 lg-25" type="submit">SEND MESSAGE</button> 
-
-            </fieldset>
-        </form>
-    </div>
-
-</div>
-<div class="google dafoult-100 sm-50 md-33 lg-25 ">
-  <div class="favicon">
-    <div class="mealif">
-    <img src="index/favicon.png" alt="favicon" width="50px">
-<h2>    Mealify</h2>
-
-    </div>
-   <p>Mealify is a restaurant landing page that offers a delicious dining experience to its customers.</p>
-<br>
-   <h2>Social Media</h2>
-<hr>
-<i class="fa-brands fa-youtube"></i>
-<i class="fa-brands fa-facebook"></i>
-<i class="fa-brands fa-linkedin"></i>
-<i class="fa-brands fa-google"></i>
-  </div>
-  <div>
-<h4>    Subscribe our Newsletter</h4>
-<br>
-<p>    Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and stay up-to-date with all things Mealify!</p>
-<br>
-<form action="">
-  <input id="Address" type="email" placeholder="ENDER YOUR Email Address">
-  <button class="fady" type="submit">subscribe</button>
-</form>
-<br>
-<h3>Quick Links</h3>
-<br>
-<ul class="menu">
-  <li class="mene">  Menu </li>
-<li> Promo</li>
-<li> About Us</li>
-<li> Contact</li>
-<li> Testimonial</li>
-<li> Our Partners</li>
-</ul>
-  </div>
-  <div>
-    <h3>    Get in Touch</h3>
-    <br>
-<div class="ppp">
-  <i class="fa-sharp-duotone fa-regular fa-house"></i>
-<p>    A108 Adam Street, New York, NY 535022</p>
-</div>
-<div class="rrr">
-        <i class="fas fa-envelope"></i>
-
-<p>        contact@example.com</p>
-</div>
-<div class="ccc">
-      <i class="fas fa-clock"></i>
-
-<p>  +1 5589 55488 55
-</p>
-</div>
-  </div>
-</div>
+    <script src="index.js"></script>
 </body>
 </html>
